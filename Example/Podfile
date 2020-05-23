@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZMUIKit_Example' do
+  pod 'ZMUIKit', :path => '../'
+
+  target 'ZMUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
