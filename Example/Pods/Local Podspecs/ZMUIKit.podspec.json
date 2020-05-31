@@ -1,0 +1,64 @@
+{
+  "name": "ZMUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of ZMUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lazyloading@163.com/ZMUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lazyloading@163.com": "lazyloading@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lazyloading@163.com/ZMUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZMUIKit/Classes/**/*.{h,m}",
+  "resources": "ZMUIKit/Classes/*.bundle",
+  "dependencies": {
+    "Aspects": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ],
+    "TYCyclePagerView": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "pop": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "HBDNavigationBar": [
+      "1.6.0"
+    ],
+    "YYText": [
+
+    ],
+    "LEEAlert": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "SDWebImage": [
+      "5.4.2"
+    ]
+  }
+}

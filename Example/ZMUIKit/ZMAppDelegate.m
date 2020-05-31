@@ -7,12 +7,16 @@
 //
 
 #import "ZMAppDelegate.h"
+#import <ZMUIKit.h>
+#import "ZMViewController.h"
 
 @implementation ZMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [self setupRoot];
     return YES;
 }
 
@@ -42,5 +46,25 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+#pragma mark --> 🐷 Private Method 🐷
+- (void)setupRoot {
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ZMTabbarController *tabVC = [[ZMTabbarController alloc]init];
+    
+    ZMViewController *homeVC = [[ZMViewController alloc]init];
+    ZMNavigationController *homeNav = [[ZMNavigationController alloc]initWithRootViewController:homeVC];
+    homeNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:[UIImage imageNamed:@"dykit_home"] selectedImage:[UIImage imageNamed:@"dykit_home"]];
+//
+//    DYOtherViewController *otherVC = [[DYOtherViewController alloc]init];
+//    ZMNavigationController *otherNav = [[ZMNavigationController alloc]initWithRootViewController:otherVC];
+//    otherNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"other" image:[UIImage imageNamed:@"dykit_other"] selectedImage:[UIImage imageNamed:@"dykit_other"]];
+    
+    tabVC.viewControllers = @[homeNav];
+    tabVC.tabBar.tintColor = [UIColor colorWithRed:98/256.f green:175/256.f blue:235/256.f alpha:1];
+    self.window.rootViewController = tabVC;
+    self.window.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    [self.window makeKeyAndVisible];
 
+}
 @end

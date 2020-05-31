@@ -1,0 +1,6 @@
+framework module Pods_ZMUIKit_Example {
+  umbrella header "Pods-ZMUIKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

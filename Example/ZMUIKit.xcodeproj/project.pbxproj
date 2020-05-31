@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		96508A5824836F7B00C089F3 /* ZMCameraDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96508A5724836F7B00C089F3 /* ZMCameraDemoController.m */; };
+		96508A5C24837F4C00C089F3 /* ZMHUDDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96508A5B24837F4C00C089F3 /* ZMHUDDemoController.m */; };
 		CB4DB1BB2928274EF0342A58 /* Pods_ZMUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0595F3F41BD7A6D590DEB779 /* Pods_ZMUIKit_Tests.framework */; };
 		DBF2FB8E3440B68F4AB24765 /* Pods_ZMUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851DC284B2D98BF83E4263F8 /* Pods_ZMUIKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +42,7 @@
 		0595F3F41BD7A6D590DEB779 /* Pods_ZMUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C0826BE9481C48BE75838 /* Pods-ZMUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZMUIKit_Tests/Pods-ZMUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CBD94C4AD668E48F52A2CA3 /* Pods-ZMUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZMUIKit_Example/Pods-ZMUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4489095DD4B2FB0EA01C540D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4489095DD4B2FB0EA01C540D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZMUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +63,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7622B7DF7886115999EFA65B /* ZMUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZMUIKit.podspec; path = ../ZMUIKit.podspec; sourceTree = "<group>"; };
+		7622B7DF7886115999EFA65B /* ZMUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZMUIKit.podspec; path = ../ZMUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7AF65C8059FEDE611DB452F7 /* Pods-ZMUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZMUIKit_Tests/Pods-ZMUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		851DC284B2D98BF83E4263F8 /* Pods_ZMUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3A5CC2A426FE35FD0406048 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		96508A5624836F7B00C089F3 /* ZMCameraDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCameraDemoController.h; sourceTree = "<group>"; };
+		96508A5724836F7B00C089F3 /* ZMCameraDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMCameraDemoController.m; sourceTree = "<group>"; };
+		96508A5A24837F4C00C089F3 /* ZMHUDDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMHUDDemoController.h; sourceTree = "<group>"; };
+		96508A5B24837F4C00C089F3 /* ZMHUDDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMHUDDemoController.m; sourceTree = "<group>"; };
+		B3A5CC2A426FE35FD0406048 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DCDA9F4DD37A86E1A813BA81 /* Pods-ZMUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ZMUIKit_Example/Pods-ZMUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +109,6 @@
 				267C0826BE9481C48BE75838 /* Pods-ZMUIKit_Tests.debug.xcconfig */,
 				7AF65C8059FEDE611DB452F7 /* Pods-ZMUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +154,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZMViewController.h */,
 				6003F5A6195388D20070C39A /* ZMViewController.m */,
+				96508A5924837F3100C089F3 /* ZMHUD */,
+				96508A5524827A5D00C089F3 /* ZMCameraDemo */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -195,6 +202,24 @@
 				B3A5CC2A426FE35FD0406048 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		96508A5524827A5D00C089F3 /* ZMCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				96508A5624836F7B00C089F3 /* ZMCameraDemoController.h */,
+				96508A5724836F7B00C089F3 /* ZMCameraDemoController.m */,
+			);
+			path = ZMCameraDemo;
+			sourceTree = "<group>";
+		};
+		96508A5924837F3100C089F3 /* ZMHUD */ = {
+			isa = PBXGroup;
+			children = (
+				96508A5A24837F4C00C089F3 /* ZMHUDDemoController.h */,
+				96508A5B24837F4C00C089F3 /* ZMHUDDemoController.m */,
+			);
+			path = ZMHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +273,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "lazyloading@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = F5S3CD83Z4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +286,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,11 +375,37 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZMUIKit_Example/Pods-ZMUIKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/LEEAlert/LEEAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TYCyclePagerView/TYCyclePagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 				"${BUILT_PRODUCTS_DIR}/ZMUIKit/ZMUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBDNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LEEAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYCyclePagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZMUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,6 +419,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96508A5C24837F4C00C089F3 /* ZMHUDDemoController.m in Sources */,
+				96508A5824836F7B00C089F3 /* ZMCameraDemoController.m in Sources */,
 				6003F59E195388D20070C39A /* ZMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -494,9 +551,11 @@
 			baseConfigurationReference = 2CBD94C4AD668E48F52A2CA3 /* Pods-ZMUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5S3CD83Z4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZMUIKit/ZMUIKit-Prefix.pch";
 				INFOPLIST_FILE = "ZMUIKit/ZMUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +569,11 @@
 			baseConfigurationReference = DCDA9F4DD37A86E1A813BA81 /* Pods-ZMUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5S3CD83Z4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZMUIKit/ZMUIKit-Prefix.pch";
 				INFOPLIST_FILE = "ZMUIKit/ZMUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

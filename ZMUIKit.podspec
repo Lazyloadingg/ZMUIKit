@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lazyloading@163.com/ZMUIKit'
+  s.homepage         = 'https://github.com/Lazyloadingg/ZMUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lazyloading@163.com' => 'lazyloading@163.com' }
-  s.source           = { :git => 'https://github.com/lazyloading@163.com/ZMUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Lazyloadingg/ZMUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZMUIKit/Classes/**/*'
-  
+  s.source_files = 'ZMUIKit/Classes/**/*.{h,m}'
+  s.resource = 'ZMUIKit/Classes/*.bundle'
   # s.resource_bundles = {
   #   'ZMUIKit' => ['ZMUIKit/Assets/*.png']
   # }
@@ -39,4 +39,21 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  
+  #三方库
+  s.dependency 'Aspects'
+  s.dependency 'Masonry'
+  s.dependency 'SDCycleScrollView'
+  s.dependency 'TYCyclePagerView'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'pop'
+  s.dependency 'MJRefresh'
+  s.dependency 'HBDNavigationBar' , '1.6.0'
+  s.dependency 'YYText'
+  s.dependency 'LEEAlert'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'SDWebImage', '5.4.2'
+  
 end
